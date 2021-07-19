@@ -677,7 +677,16 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
+}
+
+q {
+    font-size: 22px;
+}
+
+cite {
+    font-size: 14px;
+    color: black;
 }
 
 .tight-width-whitespace {
