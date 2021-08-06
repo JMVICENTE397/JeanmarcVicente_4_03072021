@@ -136,6 +136,16 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 
+.navbar-brand:focus,
+.img-focus:focus {
+    border: solid 2px #F3976C;
+}
+
+.social:focus {
+    border: solid 2px black;
+}
+
+
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -335,6 +345,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    border: solid 2px #F3976C;
 }
 
 .navbar-toggle {
