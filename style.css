@@ -141,6 +141,12 @@ a:hover {
     border: solid 2px #F3976C;
 }
 
+.navbar-brand,
+.img-focus {
+    border: solid 2px transparent;
+}
+
+
 .social:focus {
     border: solid 2px black;
 }
@@ -332,10 +338,14 @@ a:hover {
     z-index: 1;
 }
 
-.nav > li {
+.nav > li a,
+.nav > li h2 a {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    border: solid 2px transparent;
+    padding: 12px;
+    line-height: 44px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -343,7 +353,9 @@ a:hover {
 }
 
 .nav > li a:hover,
-.nav > li a:focus {
+.nav > li h2 a:hover,
+.nav > li a:focus,
+.nav > li h2 a:focus {
     background: transparent;
     border: solid 2px #F3976C;
 }
